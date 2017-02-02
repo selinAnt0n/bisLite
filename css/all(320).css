@@ -1,0 +1,129 @@
+@media screen and (max-width:320px){
+	#nav{
+		background-size: 70px;
+		width: 70px;
+  		height: 60px;
+	}
+	.list li a h2{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.list li a{padding-top: 25px;}
+	.list li a img{
+		width: 35%;
+  		margin: 0px 0 0 45px;
+	}
+	.list_tabs{display: none;}
+	.gallery-holder{padding-bottom: 19px;}
+	.info-center .center-left{
+		width: 100%;
+		float: none;
+		display: block;
+		margin-bottom: 20px;
+	}
+	.info-center .center-right{
+		width: 100%;
+		float: none;
+		display: block;
+	}
+	.h-box h3{font-size: 20px;}
+	.info-center .center-left p{
+		font-size: 20px;
+		width: 100%;
+	}
+	.info-center .center-left strong{font-size: 16px;}
+	.info-box .info-box-little{width: 100%;}
+	.download{width: 54%;}
+	.footer-top .footer-top-box-2{
+		width: 42%;
+		float: left;
+		margin-right: 10px;
+		padding-right: 10px;
+		border-right: 1px solid #b7b7b7;
+		border-bottom:none;
+	}
+	.footer-top .footer-top-box-3{
+		width: 50%;
+		float: left;
+		border-bottom:none;
+	}
+	.footer-top .footer-top-box-4{
+		width: 100%;
+		padding-right:0;
+		border-bottom: 1px solid #b7b7b7;
+		border-right:none;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		float:none;
+	}
+	.footer-top .footer-top-box-5{
+		width: 100%;
+		margin: 0;
+		float: none;
+		overflow: hidden;
+	}
+	.footer-top .footer-top-box-5 ul.sprites{
+		display: block;
+		width: 67%;
+		margin:15px auto 0 auto;
+		overflow: hidden;
+	}
+	.footer-bot>span{
+		width: 100%;
+		font-size: 17px;
+		line-height: 19px;
+		float: none; 
+	}
+	.footer-bot a.logo{
+		float: none;
+		margin:15px auto 0 auto;
+		display: block;
+		width: 60%;
+	}
+}
+/*----------------------------------------portfolio--------------------------------------------------------*/
+@media screen and (max-width:320px){
+	.holder-img{
+		float: left;
+		width: 100%;
+		margin-right:0%;
+	}
+	.holder-img:nth-of-type(3n){margin-right:0%;}
+	.holder-img:nth-of-type(2n){margin-right:0%;}
+	.all-info>label{
+	 	font-size: 22px;
+	 	padding:0;
+	 	width: 50%;
+	}
+	.all-info>label:nth-of-type(2n){
+		float: right;
+		text-align: right;
+	}
+}
+/*----------------------------------------contact--------------------------------------------------------*/
+@media screen and (max-width:320px){
+	.contact-left input{width: 90%;}
+	.contact-left textarea{
+		width: 90%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 21px;
+	}
+	.contact-right .map-holder{
+		width: 100%;
+		margin:0 auto;
+		float: none;
+	}
+	.contact-right .map-holder{display: none;}
+	.contact-right .footer-top-box-4 mark,
+	.contact-right .footer-top-box-4 span{
+		font-size: 22px;
+		width: 100%;
+		line-height: 25px;
+	}
+	.contact-left input.submit{
+		width: 70%;
+		padding: 20px 0 20px 50px;
+		font-size: 21px;
+	}
+}
